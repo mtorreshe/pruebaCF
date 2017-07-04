@@ -9,6 +9,8 @@ Esta es la vista de autos (estoy en views/auto/auto.cfm)
 
 </p>
 
+asdasdasd
+
 
 <p>
 <cfdump var="#prc.objAuto#">
