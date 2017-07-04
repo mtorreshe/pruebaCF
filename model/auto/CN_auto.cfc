@@ -18,9 +18,9 @@
 	<cffunction name="getAuto" access="public" returntype="any" output="false">
 		<cfargument name="idAuto" type="numeric">
 		<cfscript>
-			objAuto = DAO.getDatosAuto(idAuto);
+			objAutos = DAO.getDatosAuto(idAuto);
 			/*falta crear los objetos y llenarlos*/
-			return objAuto;
+			return objAutos;
 		</cfscript>
 	</cffunction>
 
