@@ -18,7 +18,7 @@
     <cffunction name="getDatosAuto" hint="">
         <cfargument name="idAuto" type="numeric" required="yes" hint="">
             
-			<cfset myQuery = QueryNew("marca, color", "VarChar, VarChar")> 
+			<cfset myQuery = aaaaaQueryNew("marca, color", "VarChar, VarChar")> 
          
 			<!--- Make two rows in the query ---> 
 			<cfset newRow = QueryAddRow(MyQuery, 2)> 
